@@ -21,4 +21,9 @@ series eps = resid
 
 freeze(fig1_3) eps.line
 
+fig1_1.save(t=pdf, c, box, port, w=4.2, h = 4.1, u=in, d=96, trans) fig1_1.pdf
+
+fig1_2.save(t=pdf, c, box, port, w=4.2, h = 4.1, u=in, d=96, trans) fig1_2.pdf
+
+fig1_3.save(t=pdf, c, box, port, w=4.2, h = 4.1, u=in, d=96, trans) fig1_3.pdf
 
